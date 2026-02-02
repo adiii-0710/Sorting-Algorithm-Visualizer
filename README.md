@@ -1,12 +1,5 @@
 Sorting Algorithm Visualizer
-Case Study
-Group No: 6
-Names: Aditya Khare, Arman Choudhary, Atharav
-Chaurasiya, Danesh Joishar
-Cohort: Demis Hassabis
-University: ITM Skills University
-Course: B.Tech CSE
-Semester: I
+
 1. Overview (What is this project?)
 Sorting is a fundamental concept in Data Structures and Algorithms and is widely used in
 real-world applications such as databases, search engines, and operating systems.
