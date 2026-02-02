@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>Sorting Algorithm Visualizer</h1>
+    <p class="subtitle">Visual learning tool for sorting algorithms</p>
+
+    <div class="panel">
+
+        <div class="input-group">
+            <label>Number of Elements</label>
+            <input type="number" id="size" value="10" min="5" max="150">
+        </div>
+
+        <button onclick="generateArray()">Generate Array</button>
+        <button onclick="bubbleSort()">Bubble Sort</button>
+        <button onclick="selectionSort()">Selection Sort</button>
+
+        <div class="input-group">
+            <label>Speed</label>
+            <input type="range" min="50" max="1000" value="300" id="speed">
+        </div>
+
+    </div>
+
+    <div id="array" class="visualizer"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
